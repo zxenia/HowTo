@@ -1,4 +1,4 @@
-# HowTo map MySQL database to RDF with Karma
+# Mapping MySQL database to RDF with Karma
 
 ### This post describes the workflow for mapping relational database to RDF using [Karma](http://usc-isi-i2.github.io/karma/) tool. 
 
