@@ -63,4 +63,4 @@ Link ‘R2RML’ model appears on the table panel, click on it and save it to lo
 
 ![image alt text](https://github.com/zxenia/HowTo/blob/master/images/p01_img06.jpg) 
 
-Next time import the same table from database, then go to Apply R2RML Model, from File , browse the file, choose the saved previously model file and apply it. All previously created mappings should appear on the table. 
+Next time import the same table from database, then go to Apply R2RML Model, from File , browse the file - choose saved previously model file and apply it. All previously created mappings should appear on the table. 
