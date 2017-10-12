@@ -2,7 +2,7 @@
 
 1.	Connect to database
 
-![image alt text](https://github.com/zxenia/HowTo/blob/master/images/p01_img01.jpg)
+![image alt text](https://raw.githubusercontent.com/zxenia/HowTo/master/images/p01_img01.jpg)
  
 2.	After the connection is established, select and import tables to be mapped from the database.
 
@@ -10,7 +10,7 @@
 
 4.	For each table set up a Base URI: once we want to publish one RDF resource composed from data from different tables then the base URI must be the same for all tables. 
 
-![image alt text](https://github.com/zxenia/HowTo/blob/master/images/p01_img02.jpg)
+![image alt text](https://raw.githubusercontent.com/zxenia/HowTo/master/images/p01_img02.jpg)
  
 
 5.	Modify id column in each table in order to use it as unique URIs. Click on triangle next to the column name and select PyTransform.  Enter a python expression to change the value in the column:
@@ -27,7 +27,7 @@ This step is needed to generate unique URIs for objects and because the ids in d
 
 - Click ‘Preview results for top 5 rows’ to check how you python expression worked out.
 
-![image alt text](https://github.com/zxenia/HowTo/blob/master/images/p01_img03.jpg)
+![image alt text](https://raw.githubusercontent.com/zxenia/HowTo/master/images/p01_img03.jpg)
 
 
 6.	The Workflow:
@@ -44,7 +44,7 @@ The rdf data will be save to OpenRDF repository (click the link in the right upp
 
 To export the rdf file one can also from the table panel in Karma interface, it appear there after selecting Publish – RDF.
 
-![image alt text](https://github.com/zxenia/HowTo/blob/master/images/p01_img04.jpg)
+![image alt text](https://raw.githubusercontent.com/zxenia/HowTo/master/images/p01_img04.jpg)
 
 - Repeat the same for the next table from database. 
 
@@ -54,11 +54,11 @@ If in first table one sets site_id  URI to semantic type __E7_Activity1__, then 
 
 * To export mapping model, to reapply it again later, go to – Publish - R2RML Model. 
 
-![image alt text](https://github.com/zxenia/HowTo/blob/master/images/p01_img05.jpg)
+![image alt text](https://raw.githubusercontent.com/zxenia/HowTo/master/images/p01_img05.jpg)
 
 
 Link ‘R2RML’ model appears on the table panel, click on it and save it to local directory.
 
-![image alt text](https://github.com/zxenia/HowTo/blob/master/images/p01_img06.jpg) 
+![image alt text](https://raw.githubusercontent.com/zxenia/HowTo/master/images/p01_img06.jpg) 
 
 Next time import the same table from database, then go to Apply R2RML Model, from File , browse the file - choose saved previously model file and apply it. All previously created mappings should appear on the table. 
