@@ -41,7 +41,7 @@ This step is needed to generate unique URIs for objects and because the ids in d
 
 * To relate to column containing __literal values__: click on the triangle of literal value column name, set Semantic Type, select ‘Property of Class’, edit, in pop up window set Property and then select which Class this property belongs to, set Literal Type (e.g. xsd:string) and Language (if available).
 
-* To publish data in RDF, go to the table panel (above the table itself), click on triangle next to it, select ‘Publish’ -> RDF, in the field RDF Graphs choose ‘Create New Context’, set the name for the graph (try to stick to convention ‘http://localhost.com/worksheets/your_new_context_name’), select ‘Append’, click ‘Publish’.
+* To publish data in RDF, go to the table panel (above the table itself), click on triangle next to it, select ‘Publish’ -> RDF, in the field RDF Graphs choose ‘Create New Context’, set the name for the graph (try to stick to convention ‘.../worksheets/your_new_context_name’), select ‘Append’, click ‘Publish’.
 The rdf data will be save to OpenRDF repository (click the link in the right upper corner to go there). From the list of repositories choose karma_data, then on the left sidebar choose Contexts, and click on the context name you just created.
 
 To export the rdf file one can also from the table panel in Karma interface, it appear there after selecting Publish – RDF.
