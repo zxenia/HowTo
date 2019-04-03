@@ -15,7 +15,7 @@
 
 5.	Modify id column in each table in order to use it as unique URIs. Click on triangle next to the column name and select PyTransform.  Enter a python expression to change the value in the column:
 
-  * one can change value directly in the column or create a new column  to store new value
+- one can change value directly in the column or create a new column  to store new value
 
 - my suggestion is to create a new column in case one would like to use the original ids for something else
 
